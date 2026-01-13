@@ -1,0 +1,47 @@
+.kalkulator{
+    width: 300px;
+    background-color: #eaeaea;
+    margin: 50px auto 0px auto;
+    padding: 7px;
+    border-radius: 5px;
+}
+
+#screen{
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #cecece;
+    font-size: 25px;
+    font-weight: bold;
+    color: grey;
+    padding: 7px 5px;
+    text-align: right;
+    outline: none;
+}
+
+.container-tombol{
+    display: flex;
+    /* wrap nbiar otomatis turun ke bawah */
+    flex-wrap: wrap;
+}
+
+.tombol{
+    display: flex;
+    width: 25%;
+    font-size: 20px;
+    color: grey;
+    font-weight: bold;
+    height: 70px;
+    border: 1px solid #cecece;
+    box-sizing: border-box;
+    /* justify-content untuk kanan kiri */
+    justify-content: center;
+    /* align-items untuk atas bawah */
+    align-items: center;
+    border-top: none;
+    border-left: none;
+}
+
+.tombol:nth-child(4n+1){
+    border-left: 1px solid #cecece;
+
+}
