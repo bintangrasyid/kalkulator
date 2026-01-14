@@ -20,7 +20,7 @@
 
 .container-tombol{
     display: flex;
-    /* wrap nbiar otomatis turun ke bawah */
+    /* wrap biar otomatis turun ke bawah */
     flex-wrap: wrap;
 }
 
@@ -40,8 +40,30 @@
     border-top: none;
     border-left: none;
 }
-
+/* n itu counter otomatis dari 0 1 2 3 dst */
 .tombol:nth-child(4n+1){
     border-left: 1px solid #cecece;
+}
 
+.tombol:hover{
+    background-color: #e4e4e4;
+    cursor: pointer;
+}
+
+#nol{
+    flex-grow: 1;
+}
+
+.operator{
+    background-color: #d8d8d8;
+}
+
+#hitung{
+    color: white;
+    background-color: #ffa64a;
+}
+
+#hitung:hover{
+    color: #ffcb30;
+    
 }
